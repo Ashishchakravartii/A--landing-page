@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    background-image: url(pngwing.com\ \(1\).png);
+    background-color: #68A7AD;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+#content{
+    width: 93%;
+    height: 83%;
+    background-color: #589095;
+    position: relative;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 280px;
+    color: white;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+img{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: 3;
+    top: 21%;
+
+
+}
+#serchbutton{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+    
+#b1{
+
+    position: absolute;
+    top: 5%;
+    font-size: 25px;
+    
+}
+#b2{
+   position: absolute;
+   left: 56%;
+   top: 5%;
+}
+#b3{
+   position: absolute;
+   left: 70%;
+   top: 5%;
+}
+#b4{
+    position: absolute;
+    left: 78%;
+    top: 5%;
+}
+#b5{
+    position: absolute;
+    left: 64%;
+    top: 5%;
+ }
+ p{
+    color: aliceblue;
+    font-size: 25px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 4;
+    left: 40%;
+    top: 68%;
+    font-family: 'Quicksand', sans-serif;
+
+   }
+   #b6{
+    position: absolute;
+    z-index: 4;
+    left: 39%;
+    top: 78%;
+    border: 2px solid white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+
+   }
+   #a1,#a2,#a3{
+    height: 24px;
+    width: 24px;
+   }
+   #a1{
+   left: 90%;
+   top: 95%;
+   }
+   #a2{
+   left: 85%;
+   top: 95%;
+   }
+   #a3{
+   left: 80%;
+   top: 95%;
+   }
+ 
